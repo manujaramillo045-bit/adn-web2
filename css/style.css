@@ -193,7 +193,7 @@ footer {
 /* Botón flotante de WhatsApp */
 .whatsapp-flotante {
     position: fixed;
-    bottom: 20px;
+    bottom: 80px; /* antes 20px: sube el botón por encima del badge de Netlify */
     right: 20px;
     width: 56px;
     height: 56px;
